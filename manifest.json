@@ -4,9 +4,7 @@
   "description": "This is my first Chrome extension.",
   "manifest_version": 3,
   "permissions": ["activeTab"],
-  "background": {
-    "service_worker": "background.js"
-  },
+
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
